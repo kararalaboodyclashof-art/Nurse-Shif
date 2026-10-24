@@ -1,0 +1,6 @@
+{
+  "name": "NurseShift — نظام إدارة الخفارات التمريضية",
+  "description": "نظام ذكي متكامل لإدارة وتنظيم خفارات التمريض والتخدير بالمستشفى مع توزيع عادل للفترات وتغطية الساعات الحرجة والتسليم والاستلام",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

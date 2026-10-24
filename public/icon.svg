@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#grad)" />
+  <circle cx="256" cy="256" r="180" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="8" stroke-dasharray="16 12" />
+  
+  <!-- Hospital Cross -->
+  <path d="M224 150 h64 v64 h64 v64 h-64 v64 h-64 v-64 h-64 v-64 h64 z" fill="url(#accent)" filter="drop-shadow(0 8px 16px rgba(0,0,0,0.3))" />
+  
+  <!-- Caduceus / Stethoscope / Shift Clock Indicator -->
+  <circle cx="256" cy="256" r="28" fill="#ffffff" />
+  <path d="M256 256 L256 242 M256 256 L266 256" stroke="#0369a1" stroke-width="4" stroke-linecap="round" />
+  
+  <!-- Moon (Night/Critical shift symbol) -->
+  <path d="M370 120 A 30 30 0 0 1 340 150 A 30 30 0 0 0 355 105 A 30 30 0 0 1 370 120 Z" fill="#fbbf24" opacity="0.9" />
+</svg>
